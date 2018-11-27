@@ -54,10 +54,6 @@
 .navbar_right a.hamburger {
   display: none;
 }
-.navbar_right a.x {
-  font-size: 30px;
-  display: none;
-}
 @media screen and (max-width: 992px){
   .navbar_right li.none {
     display: none;
@@ -71,19 +67,28 @@
   width: 100vw;
   height: 100vh;
   margin-top: 80px;
-  padding: 40px;
   background: #2B3F58;
   display: none;
 }
 .ham_menu ul {
   list-style: none;
+  padding-top: 70px;
+  padding-left: 40px;
 }
 .ham_menu li {
   margin: 30px 0;
 }
-.ham_menu a {
+.ham_menu li a {
   color: white;
   text-decoration: none;
   font-size: 20px;
   border-bottom: 2px solid white;
+}
+.x_times {
+  float: right;
+  margin: 15px;
+}
+.x_times a {
+  font-size: 30px;
+  color: white;
 }
