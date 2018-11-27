@@ -58,9 +58,28 @@
   .navbar_right li.none {
     display: none;
   }
-  .navbar_right a.hamburger {
+  .navbar_right li a.hamburger {
     display: block;
+    font-size: 30px;
   }
-
-
+}
+.ham_menu {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 80px;
+  padding: 40px;
+  background: #2B3F58;
+  display: none;
+}
+.ham_menu ul {
+  list-style: none;
+}
+.ham_menu li {
+  margin: 30px 0;
+}
+.ham_menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 2px solid white;
 }
