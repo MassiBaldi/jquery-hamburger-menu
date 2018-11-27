@@ -54,6 +54,10 @@
 .navbar_right a.hamburger {
   display: none;
 }
+.navbar_right a.x {
+  font-size: 30px;
+  display: none;
+}
 @media screen and (max-width: 992px){
   .navbar_right li.none {
     display: none;
